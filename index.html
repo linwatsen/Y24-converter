@@ -468,13 +468,6 @@
         </div>
     </div>
 
-    <!-- 缺失項目提示框 -->
-    <div class="alert-box" id="warningBox">
-        <div class="alert-title">
-            <span>⚠️ 發現部分項目在本次外出紀錄中未填寫（將以填充字替代）：</span>
-        </div>
-        <ul class="alert-list" id="warningList"></ul>
-    </div>
 
     <!-- 數據筆數異常提示框 -->
     <div class="alert-box" id="anomalyBox" style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3);">
@@ -640,7 +633,6 @@
             fileNameDisplay.textContent = '';
             document.getElementById('companyOutput').value = '';
             document.getElementById('outingOutput').value = '';
-            document.getElementById('warningBox').style.display = 'none';
             document.getElementById('anomalyBox').style.display = 'none';
             showToast('已清除內容');
         });
@@ -668,21 +660,6 @@
                 const updatedOutingText = generateUpdatedOutingRecord(rawInput);
                 document.getElementById('outingOutput').value = updatedOutingText;
 
-                // (d) 處理缺失項目警告提示
-                const warningBox = document.getElementById('warningBox');
-                const warningList = document.getElementById('warningList');
-                
-                if (companyResult.missingItems.length > 0) {
-                    warningList.innerHTML = '';
-                    companyResult.missingItems.forEach(item => {
-                        const li = document.createElement('li');
-                        li.textContent = item;
-                        warningList.appendChild(li);
-                    });
-                    warningBox.style.display = 'block';
-                } else {
-                    warningBox.style.display = 'none';
-                }
 
                 // (e) 處理數據筆數異常提示
                 const anomalyBox = document.getElementById('anomalyBox');
