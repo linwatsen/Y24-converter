@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "bfdba647ec66be5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "83ca5704db87229a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d933252f1c4763ad",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "apple-touch-icon.png"
+              },
+              "icon": "lucide-image",
+              "title": "apple-touch-icon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02386937800895c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe76accf407a80ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ef6929e8b32b21f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "64c25b720a213daa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "90714f12797801fb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d588952815db1d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc42a0c87a2fab45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b5c256789c29828",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "apple-touch-icon.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向連結"
+            }
+          },
+          {
+            "id": "d6ae666b94f8cf7c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "apple-touch-icon.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "對外連結"
+            }
+          },
+          {
+            "id": "09a918f99a8f2daf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "56a73ef84d58acb8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "14c9ebceb8cf7f07",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "apple-touch-icon.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false
+    }
+  },
+  "active": "d933252f1c4763ad",
+  "lastOpenFiles": [
+    "觀測資料記錄/戶外紀錄/Y24日評_戶外記錄 (1150812).md",
+    "觀測資料記錄/戶外紀錄/Y24日評_戶外紀錄 (1150811).md",
+    "觀測資料記錄/戶外紀錄",
+    "觀測資料記錄/Y24日評_公司登記(1150812).md",
+    "觀測資料記錄",
+    "新增資料夾",
+    "favicon.png",
+    "icon-192.png",
+    "icon-512.png",
+    "apple-touch-icon.png",
+    "Y24日評_公司登記(1150812).md",
+    "戶外紀錄/Y24日評_戶外紀錄 (1150811).md",
+    "戶外紀錄/Y24日評_戶外記錄 (1150812).md",
+    "Y24公司紀錄.md.crdownload",
+    "戶外紀錄",
+    "1150812 Y24日評.md.crdownload"
+  ]
+}
